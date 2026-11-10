@@ -1,0 +1,27 @@
+{
+  "name": "medical-appointment-z",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.18.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.18.0",
+  "type": "module",
+  "dependencies": {
+    "@langchain/core": "1.1.19",
+    "@types/node": "^24.19.2",
+    "fastify": "^5.12.8",
+    "langchain": "1.2.17"
+  }
+}
